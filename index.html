@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Aselyn - Digital product design agency</title>
+    <meta name="title" content="Aselyn - Digital product design agency" />
+    <meta name="description" content="This is a agency html template made by codewithsadee" />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - link kustom css-style
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - link font google
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- 
+    - pramuat gambar
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./assets/images/Aselyn_logo.jpg" width="320" height="163" alt="dprod logo" />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <p class="navbar-judul">Main Menu</p>
+
+          <ul class="daftar-navbar">
+            <li class="item-navbar">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="item-navbar">
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li class="item-navbar">
+              <a href="#services" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li class="item-navbar">
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="tombol-buka-nav" aria-label="open menu" data-nav-toggler>
+          <ion-icon style="transform:rotate(90deg);" name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="btn btn-primary">Contact Us</a>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+        <section class="section hero" id="home" aria-label="home">
+          <div class="container">
+            <div class="konten-hero">
+              <h1 class="h1 judul-section">Digital <span class="span">product</span> design agency</h1>
+
+              <p class="teks-section">Create live segments and target the right people for messages based on their behaviors.</p>
+
+              <button class="btn btn-secondary">Get Started</button>
+            </div>
+
+            <figure class="spanduk-hero punya-bentuk">
+              <img src="./assets/images/hero-banner.jpg" width="521" height="675" alt="hero banner" class="w-100" />
+
+              <img src="./assets/images/hero-shape-1.jpg" width="106" height="78" alt="" class="bentuk" />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICES
+      -->
+
+        <section class="section layanan punya-bentuk" id="services" aria-label="service">
+          <div class="container">
+            <div class="pembungkus-judul">
+              <h2 class="h2 judul-section">The <span class="span">service</span>.</h2>
+
+              <p class="teks-section">front-end development web creation</p>
+            </div>
+
+            <ul class="daftar-grid">
+              <li>
+                <div class="kartu-layanan">
+                  <figure class="card-icon">
+                    <img src="./assets/images/service-1.svg" width="60" height="60" loading="lazy" alt="service icon" />
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="judul-kartu">Mobile Apps</a>
+                  </h3>
+
+                  <p class="teks-kartu">We are only not have website, but we also have the mobile apps.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="kartu-layanan">
+                  <figure class="card-icon">
+                    <img src="./assets/images/service-2.svg" width="60" height="60" loading="lazy" alt="service icon" />
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="judul-kartu">Branding Strategy</a>
+                  </h3>
+
+                  <p class="teks-kartu">About how our strategy to make a good branding for our products.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="kartu-layanan">
+                  <figure class="card-icon">
+                    <img src="./assets/images/service-3.svg" width="60" height="60" loading="lazy" alt="service icon" />
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="judul-kartu">Graphics Design</a>
+                  </h3>
+
+                  <p class="teks-kartu">Next, we also can make graphics design that you own (for you).</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="kartu-layanan">
+                  <figure class="card-icon">
+                    <img src="./assets/images/service-4.svg" width="60" height="60" loading="lazy" alt="service icon" />
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="judul-kartu">Online Marketing</a>
+                  </h3>
+
+                  <p class="teks-kartu">The last, we also can help you on online marketing.</p>
+                </div>
+              </li>
+            </ul>
+
+            <img src="./assets/images/circle-shape.svg" width="158" height="158" loading="lazy" alt="" class="bentuk shape-1" />
+
+            <img src="./assets/images/triangle-shape-1.svg" width="158" height="158" loading="lazy" alt="" class="bentuk shape-2" />
+          </div>
+        </section>
+
+        <!-- 
+        - #tentang
+      -->
+
+        <section class="section tentang" id="about" aria-label="about">
+          <div class="container">
+            <figure class="spanduk-tentang punya-bentuk">
+              <img src="./assets/images/about-banner.jpg" width="500" height="611" loading="lazy" alt="about banner" class="w-100" />
+
+              <img src="./assets/images/banner-shape.svg" width="108" height="86" loading="lazy" alt="" class="bentuk" />
+            </figure>
+
+            <div class="konten-tentang">
+              <h2 class="h2 judul-section">We can <span class="span">help</span> You make your own project.</h2>
+
+              <p class="teks-section">.</p>
+
+              <a href="#" class="btn btn-outline">Detail About Us</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #projek
+      -->
+
+        <section class="section project" aria-label="project">
+          <div class="container">
+            <div class="pembungkus-judul">
+              <div>
+                <h2 class="h2 judul-section">Our <span class="span">Work</span>.</h2>
+
+                <p class="teks-section">We can create your own project, so don't hesitate to use our services.</p>
+              </div>
+
+              <a href="#" class="btn-link">
+                <span class="span">Show More Projects</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+            <ul class="daftar-projek">
+              <li>
+                <div class="kartu-projek">
+                  <figure class="spanduk-kartu img-holder" style="--width: 615; --height: 391">
+                    <img src="./assets/images/project-1.jpg" width="615" height="391" loading="lazy" alt="Plastic Credit Card" class="sampul-img" />
+                  </figure>
+
+                  <div class="konten-kartu">
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="judul-kartu hover:underline">Plastic Credit Card</a>
+                      </h3>
+
+                      <p class="label-kartu">Identity, Mockup</p>
+                    </div>
+
+                    <a href="#" class="link-kartu" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="kartu-projek">
+                  <figure class="spanduk-kartu img-holder" style="--width: 615; --height: 391">
+                    <img src="./assets/images/project-2.jpg" width="615" height="391" loading="lazy" alt="3D Illustration" class="sampul-img" />
+                  </figure>
+
+                  <div class="konten-kartu">
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="judul-kartu hover:underline">3D Illustration</a>
+                      </h3>
+
+                      <p class="label-kartu">Development, Mobile App</p>
+                    </div>
+
+                    <a href="#" class="link-kartu" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="kartu-projek">
+                  <figure class="spanduk-kartu img-holder" style="--width: 390; --height: 391">
+                    <img src="./assets/images/project-3.jpg" width="390" height="391" loading="lazy" alt="Statistics Mobile App" class="sampul-img" />
+                  </figure>
+
+                  <div class="konten-kartu">
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="judul-kartu hover:underline">Statistics Mobile App</a>
+                      </h3>
+
+                      <p class="label-kartu">Development, Mobile App</p>
+                    </div>
+
+                    <a href="#" class="link-kartu" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="kartu-projek">
+                  <figure class="spanduk-kartu img-holder" style="--width: 390; --height: 391">
+                    <img src="./assets/images/project-4.jpg" width="390" height="391" loading="lazy" alt="Color Blending Effect" class="sampul-img" />
+                  </figure>
+
+                  <div class="konten-kartu">
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="judul-kartu hover:underline">Color Blending Effect</a>
+                      </h3>
+
+                      <p class="label-kartu">Design, Graphics</p>
+                    </div>
+
+                    <a href="#" class="link-kartu" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="kartu-projek">
+                  <figure class="spanduk-kartu img-holder" style="--width: 390; --height: 391">
+                    <img src="./assets/images/project-5.jpg" width="390" height="391" loading="lazy" alt="3D Animation" class="sampul-img" />
+                  </figure>
+
+                  <div class="konten-kartu">
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="judul-kartu hover:underline">3D Animation</a>
+                      </h3>
+
+                      <p class="label-kartu">Design, Dimension</p>
+                    </div>
+
+                    <a href="#" class="link-kartu" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section blog" id="blog" aria-label="blog">
+          <div class="container">
+            <div class="pembungkus-judul">
+              <h2 class="h2 judul-section">Ours <span class="span">news feed</span>.</h2>
+
+              <a href="#" class="btn-link">
+                <span class="span">Check Our All News</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+            <ul class="daftar-grid">
+              <li>
+                <div class="kartu-blog">
+                  <div class="spanduk-kartu img-holder" style="--width: 595; --height: 391">
+                    <img src="./assets/images/blog-1.png" width="595" height="391" loading="lazy" alt="Designer's Checklist for Every UX Project." class="sampul-img" />
+
+                    <button class="label-kartu">Grid Layout</button>
+                  </div>
+
+                  <div class="konten-kartu">
+                    <ul class="daftar-meta">
+                      <li class="meta-item">
+                        <img src="./assets/images/author-1.png" width="18" height="18" loading="lazy" alt="Alice Williams" class="author-img" />
+
+                        <p class="teks-item-meta">Sharon vermont</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="teks-item-meta">December 20, 2022</time>
+                      </li>
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="judul-kartu hover:underline"> Designer's Checklist for Every UX Project. </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="kartu-blog">
+                  <div class="spanduk-kartu img-holder" style="--width: 595; --height: 391">
+                    <img src="./assets/images/blog-2.png" width="595" height="391" loading="lazy" alt="Designer's Checklist for Every UX Project." class="sampul-img" />
+
+                    <button class="label-kartu">Grid Layout</button>
+                  </div>
+
+                  <div class="konten-kartu">
+                    <ul class="daftar-meta">
+                      <li class="meta-item">
+                        <img src="./assets/images/author-2.png" width="18" height="18" loading="lazy" alt="Jaxson Geldit" class="author-img" />
+
+                        <p class="teks-item-meta">Jaxson Geldit</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="teks-item-meta">December 20, 2022</time>
+                      </li>
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="judul-kartu hover:underline">Web Development.</a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="kartu-blog">
+                  <div class="spanduk-kartu img-holder" style="--width: 595; --height: 391">
+                    <img src="./assets/images/blog-3.png" width="595" height="391" loading="lazy" alt="Designer's Checklist for Every UX Project." class="sampul-img" />
+
+                    <button class="label-kartu">Grid Layout</button>
+                  </div>
+
+                  <div class="konten-kartu">
+                    <ul class="daftar-meta">
+                      <li class="item-meta">
+                        <img src="./assets/images/author-1.png" width="18" height="18" loading="lazy" alt="Cooper Saris" class="author-img" />
+
+                        <p class="text-item-meta">Cooper Saris</p>
+                      </li>
+
+                      <li class="item-meta">
+                        <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="teks-item-meta">December 20, 2022</time>
+                      </li>
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="judul-kartu hover:underline"> Our team making a simple design. </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="atas-footer section">
+          <div class="merek-footer">
+            <a href="#" class="logo">
+              <img src="./assets/images/Aselyn_logo.jpg" width="209" height="52" alt="dprod logo" />
+            </a>
+
+            <a href="mailto:companyinfo@mail.com" class="link-footer">companyinfo@mail.com</a>
+
+            <a href="tel:+0987654321" class="link-footer">+098 765 4321</a>
+
+            <ul class="daftar-sosial">
+              <li>
+                <a href="#" class="link-sosial">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="link-sosial">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="link-sosial">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="link-sosial">
+                  <ion-icon name="logo-dribbble"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="daftar-footer">
+            <li>
+              <p class="h4 judul-daftar-footer">Links</p>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Company Details</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Our Newsfeed</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Service Standard</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Team Members</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Pricing Standard</a>
+            </li>
+          </ul>
+
+          <ul class="daftar-footer">
+            <li>
+              <p class="h4 judul-daftar-footer">Legal</p>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Agency Minimal</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Creative Agency</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Creative Layout</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Dark Layout</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">FAQ with Filter</a>
+            </li>
+          </ul>
+
+          <ul class="daftar-footer">
+            <li>
+              <p class="h4 judul-daftar-footer">Projects</p>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Projects Common</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Projects Creative</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Projects Standard</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">Dark Layout</a>
+            </li>
+
+            <li>
+              <a href="#" class="link-footer">eCommerce</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">Copyright 2022 All Rights Reserved by codewithsadee.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
